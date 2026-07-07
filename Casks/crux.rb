@@ -3,7 +3,7 @@ cask "crux" do
   name "crux"
   desc "Local TUI for monitoring RWX runs with a better Flow graph"
   homepage "https://github.com/chrismo/crux"
-  version "0.3.0"
+  version "0.3.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "crux" do
   on_macos do
     on_intel do
       url "https://github.com/chrismo/crux/releases/download/v#{version}/crux_#{version}_darwin_amd64.tar.gz"
-      sha256 "f029386e9691a29dc167ea61d7e01eceb2a7a408c8aedc11d619619734edbb09"
+      sha256 "302addd07812831a2af726fb0f80d2a747f1ab76ee654cab19ce45cd5bb83582"
     end
     on_arm do
       url "https://github.com/chrismo/crux/releases/download/v#{version}/crux_#{version}_darwin_arm64.tar.gz"
-      sha256 "476d79f3f511775ad365f74c90e81699699fbc2c7bda7f492e88339c48664f64"
+      sha256 "1e6343468fd27c207f0bef6251b675c77f1e7de285bc8717d80cb93d2986108e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/chrismo/crux/releases/download/v#{version}/crux_#{version}_linux_amd64.tar.gz"
-      sha256 "2b2742246d325ec8751d3e7527c7b9ddf5e0e5ed70fdba78f976072fc782c6e0"
+      sha256 "709d4f49227d44cf1c54f0960f94f0948b23e3462af5418fc01b4c30a11b2e90"
     end
     on_arm do
       url "https://github.com/chrismo/crux/releases/download/v#{version}/crux_#{version}_linux_arm64.tar.gz"
-      sha256 "4d1289f0eaa47e9a92e4eb2cd199ae3fa1c4f1e4a2d60327e9c2abacb24a4e61"
+      sha256 "45199ac3f82a373433ccdf0ec649096e28506e0dc0536f93629e87fdb55c0e78"
     end
   end
 
